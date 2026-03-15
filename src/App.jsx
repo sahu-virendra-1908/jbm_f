@@ -8,7 +8,7 @@ import UploadEvidence from "./pages/cases/UploadEvidence"
 import TrackCases from "./pages/citizen/TrackCases"
 import MyCases from "./pages/citizen/MyCases"
 import CaseDetails from "./pages/citizen/CaseDetails"
-
+import CaseResearch from "./pages/CaseResearch"
 
 function App() {
 
@@ -24,6 +24,7 @@ function App() {
      <Route path="/upload-evidence" element={<UploadEvidence/>}/>
      <Route path="/my-cases" element={<TrackCases />} />
      <Route path="/case/:id" element={<CaseDetails />} />
+       <Route path="/case-research" element={<CaseResearch />} />
    </Routes>
 
   </BrowserRouter>
