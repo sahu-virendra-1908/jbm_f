@@ -9,7 +9,7 @@ import TrackCases from "./pages/citizen/TrackCases"
 import MyCases from "./pages/citizen/MyCases"
 import CaseDetails from "./pages/citizen/CaseDetails"
 import CaseResearch from "./pages/CaseResearch"
-
+import SearchCase from "./pages/citizen/SearchCase"
 function App() {
 
  return (
@@ -23,6 +23,7 @@ function App() {
     <Route path="/create-case" element={<CreateCase/>}/>
      <Route path="/upload-evidence" element={<UploadEvidence/>}/>
      <Route path="/my-cases" element={<TrackCases />} />
+     <Route path="/search-case" element={<SearchCase />} />
      <Route path="/case/:id" element={<CaseDetails />} />
        <Route path="/case-research" element={<CaseResearch />} />
    </Routes>
