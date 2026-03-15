@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# production
+build/
+
+# environment files
+.env
+.env.local
+
+# encrypted files
+*.enc
